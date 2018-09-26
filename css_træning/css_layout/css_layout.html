@@ -2,9 +2,47 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>css_layout</title>
+<title>css_layout, styling med flex_box</title>
+
+<style>
+	.container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center; /* fordeler børnene vandret, og centrerer */
+		height: 500px;
+		background-color:#787878;
+		align-items: flex-start; /* fordeler børnene lodret */
+		align-content: flex-end; /* fordeler børnene, når de ligger i "lag" */
+	}
+	
+	.flex_item {
+		background-color: orange;
+		margin: 10px;
+		padding: 10px;
+		width: 200px;
+	}
+	
+	.flex_item_speciel {
+		order: -1; /* Ændrer dette barns placering i rækkefølgen */
+		background-color: skyblue;
+	}
+	
+	
+</style>
 </head>
 
 <body>
+<div class="container">
+		<div class="flex_item">1</div>
+  <div class="flex_item">2</div>
+<div class="flex_item">3</div>
+		<div class="flex_item flex_item_speciel">4</div>
+		<div class="flex_item">5<br>5</div>
+		<div class="flex_item">6</div>
+		
+	</div>
+	
+	
 </body>
 </html>
