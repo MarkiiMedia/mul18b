@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #B0DFF2;
+}
+
+h1 {
+	width: 400px;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+p {
+	font-family: sans-serif;
+	width: 500px;
+	line-height: 140%;
+}
+
+a {
+	color: #D68909;
+	font-weight: bold;
+}
+
+a:hover {
+	background-color: #F1FBFF;
+	text-decoration: none;
+}
