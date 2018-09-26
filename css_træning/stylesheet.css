@@ -22,12 +22,19 @@ h1 {
 	font-style: italic;
 	font-weight: 400;
 	font-size: 60px;
-	/*text-decoration: underline;*/	
+	/*text-decoration: underline;*/
+}
+
+/* ID starter med hashtag/havelåge */
+#first_headline {
+	color: red;
 }
 
 a {
 	color: dimgray;
 	text-decoration: none;
+/* Laver a om til et block element (fra inline) således at det ligger ordentligt */
+	display: block;
 }
 
 a:link {
@@ -48,6 +55,56 @@ a:active {
 	color: #E0FF00;
 }
 
+
+/* Class starter med punktum */
+.firbenet {
+	color: green;
+}
+
+.tobenet {
+	color: red;
+}
+/* Her er min span med highlight med gul */
+span.highligt {
+	background-color: yellow;
+}
+
+span {
+	font-weight: bold;
+}
+
+/*  Block element */
+#box1 {
+	background-color: #ddd;
+	margin: 50px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #333;
+	width: 50%;
+	float: left;
+}
+
+#box2 {
+	background: #EEEEEE;
+	padding: 50px;
+	border: 2px dashed #333;
+	width: 300px;
+	height: 200px;
+	float: right;
+}
+
+.text {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	border: 1px solid #333;
+}
+
+.text2 {
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
 
 
 
